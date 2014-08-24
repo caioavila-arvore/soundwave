@@ -254,10 +254,10 @@ transition: all .5s ease-out; -webkit-transition: all .5s ease-out; -moz-transit
 .combobox_destaque_newsletter .combobox ul.tabs li.ativo:hover{ background: #fff;}
 .combobox_destaque_newsletter .combobox .cont_tabs{ width: 310px; height: 262px; padding: 25px; background: #fff; }
 .combobox_destaque_newsletter .combobox .cont_tabs select{ width: 262px; height: 45px; cursor: pointer;}
-.combobox_destaque_newsletter .combobox .cont_tabs a.buscar{ display: block; width: 263px; height: 39px; background: url(../images/sprite_sw.png) no-repeat 0 -46px #232323; border: 1px solid #232323; text-indent: -9999px; overflow: hidden;}
+.combobox_destaque_newsletter .combobox .cont_tabs a.buscar{ display: block; width: 263px; height: 39px; background: url(../img/sprite_sw.png) no-repeat 0 -46px #232323; border: 1px solid #232323; text-indent: -9999px; overflow: hidden;}
 .combobox_destaque_newsletter .combobox .cont_tabs a.buscar:hover { background-color: #eaeaea; border-color: #ddd;}
 
-.customSelect {width: 264px; height: 47px; border: 1px solid #efefef; padding: 13px 0 0 15px; margin-bottom: 10px; background: url(../images/select_seta.png) no-repeat top right; cursor: pointer; font-weight: 600; font-size: 14px; color: #666; }
+.customSelect {width: 264px; height: 47px; border: 1px solid #efefef; padding: 13px 0 0 15px; margin-bottom: 10px; background: url(../img/select_seta.png) no-repeat top right; cursor: pointer; font-weight: 600; font-size: 14px; color: #666; }
 .customSelect.customSelectHover {background-position: right -45px; }
 
 
@@ -296,12 +296,48 @@ transition: all .5s ease-out; -webkit-transition: all .5s ease-out; -moz-transit
 .combobox_destaque_newsletter .news p{ font-size: 13px; color: #8a8a8a;}
 .combobox_destaque_newsletter .news fieldset{ width: 340px; height: 50px; position: relative;}
 .combobox_destaque_newsletter .news fieldset input[type="text"]{  width: 340px; height: 50px; border: 1px solid #efefef; font-size: 14px; font-weight: 600; color: #666; padding-left: 15px;}
-.combobox_destaque_newsletter .news fieldset input[type="submit"]{ display: block; width: 40px; height: 40px; background: url(../images/sprite_sw.png) no-repeat 0 -288px #181818; text-indent: -9999px; overflow: hidden; text-transform: capitalize; border: 0; position: absolute; top: 5px; right: 5px;
+.combobox_destaque_newsletter .news fieldset input[type="submit"]{ display: block; width: 40px; height: 40px; background: url(../img/sprite_sw.png) no-repeat 0 -288px #181818; text-indent: -9999px; overflow: hidden; text-transform: capitalize; border: 0; position: absolute; top: 5px; right: 5px;
 transition: all .5s ease-out; -webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out;}
 .combobox_destaque_newsletter .news fieldset input[type="submit"]:hover{ background-color: #f1c40f; }
 
-.banner_cima .banner{width: 728px; height: 90px; margin:45px auto; position: relative;}
-.banner_cima .banner .txt_publi{ width: 7px; height: 59px; background: url(../images/txt_publicidade_cima.png) no-repeat; position: absolute; top: 15px; left: -13px;}
+.banner_cima .banner{width: 728px; height: 90px; margin:48px auto 75px auto; position: relative;}
+.banner_cima .banner .txt_publi{ width: 7px; height: 59px; background: url(../img/txt_publicidade_cima.png) no-repeat; position: absolute; top: 15px; left: -13px;}
+
+.conteudo_baixo{ padding: 0;}
+.cont_tabs ul{ width: 100%; height: 60px; background: #232323; position: relative; top: -30px; }
+.cont_tabs ul li{position: relative;  float: left; width: 195px; height: 60px; border-left: 1px solid #393939;  font-size: 11px; text-transform: uppercase; font-weight: 600; color: #aaa; cursor: pointer; padding-top: 23px; text-align: center; letter-spacing: 1px;}
+.cont_tabs ul li:first-child{ border: none;}
+.cont_tabs ul li .seta{background: url(../img/seta_cat.png) no-repeat; display: none; width: 46px; height: 8px; position: absolute; left: 50%; bottom: -8px; margin-left: -23px;}
+.cont_tabs ul li.ativo { color: #fff;}
+.cont_tabs ul li.ativo .seta{ display: block;}
+
+.cont_conteudo_abas{ float: left; width: 980px;}
+.conteudo_aba{ display: none;}
+
+.cont_conteudo_abas .ver_todos{ border-bottom: 1px solid #dcdcdc; position: relative; margin-bottom: 100px; margin-top: 80px;}
+.cont_conteudo_abas .ver_todos a{ display: table; height: 45px; border: 1px dashed #888888; outline: 6px solid #fff!important; position: absolute; top: -22px; left: 0;  right: 0; margin: 0 auto; text-align: center; background: #fff; font-weight: 700; font-size: 12px; color: #1e1e1e; text-align: center; padding: 13px 20px; letter-spacing: 1px;}
+.cont_conteudo_abas .ver_todos a:hover{ background: #f6f5f0; }
+.cont_conteudo_abas .ver_todos a em{ font-style: normal;}
+
+
+.cont_publicidade_baixo{ width: 980px; margin-bottom: 75px; }
+.cont_publicidade_baixo span{padding-top: 3px; letter-spacing: 2px; width: 980px; font-size: 10px; text-align: right; color: #b7b7b7; font-family: Arial; display: block;}
+
+
+
+h2.title_home{margin-bottom: 50px; position: relative; text-align: center; font-weight: 300; font-size: 32px; color: #3e3e3e; padding-bottom: 25px; width: 980px; border-bottom: 1px solid #d1d1d1; }
+h2.title_home span{ display: block; width: 26px; height: 26px; background:#e3e3e3; border: 7px solid #fff; position: absolute; bottom: -13px; left: 50%; margin-left: -13px; border-radius: 50%; }
+
+
+.cont_parceiros .jcarousel_cont{ width: 980px; height: 70px; position: relative; margin-bottom: 70px;}
+.cont_parceiros .jcarousel{  width: 930px; height: 70px; overflow: hidden; margin: 0 auto;}
+.cont_parceiros .jcarousel ul{ width: 20000em; position: relative; margin: 0; height: 70px;}
+.cont_parceiros .jcarousel ul li{ float: left; margin: 0 31px;}
+.cont_parceiros .jcarousel-control-prev,
+.cont_parceiros .jcarousel-control-next{cursor: pointer; width: 20px; height: 70px; position: absolute; z-index: 2; top: 0; background: url(../img/seta_carousel.png) no-repeat;}
+
+.cont_parceiros .jcarousel-control-prev{ left: 0; background-position: 3px 18px;}
+.cont_parceiros .jcarousel-control-next{ right: 0; background-position: 5px -132px;}
 
 /*||||||||||||||||||||||LOGIN||||||||||||||||||||||*/
 .login .conteudo h3{ font-weight: 700; font-style: italic; font-size: 30px; color: #232323; margin-top: 45px; margin-bottom: 25px; }
